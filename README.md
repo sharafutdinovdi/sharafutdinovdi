@@ -1,54 +1,80 @@
-<p align="center">
-  <img src="assets/profile-banner.svg" alt="Dinar Sharafutdinov - Systems and Automation Builder" width="100%" />
-</p>
-
-<h1 align="center">Dinar Sharafutdinov</h1>
+<h2 align="center">Dinar Sharafutdinov</h2>
 
 <p align="center">
   <strong>Systems & Automation Builder</strong><br />
-  BIM/AEC automation, Revit add-ins, internal tools, and data workflows.
+  Revit/BIM add-ins, internal tools, data workflows, and small products for real operational work.
 </p>
 
 <p align="center">
-  <a href="https://sharafutdinov.online">Website</a>
-  |
-  <a href="https://www.linkedin.com/in/sharafutdinovdi">LinkedIn</a>
-  |
+  <a href="https://sharafutdinov.online">Portfolio</a> |
+  <a href="https://sharafutdinov.online/cv/CV_Dinar_Sharafutdinov_EN.pdf">CV</a> |
+  <a href="https://www.linkedin.com/in/sharafutdinovdi">LinkedIn</a> |
   <a href="mailto:sharafutdinov.di.dev@outlook.com">Email</a>
 </p>
 
 ---
 
-I build practical software for teams that lose time to manual repetition: Revit/BIM tools, workflow automation, internal web apps, data/reporting systems, and small products that turn scattered processes into repeatable tools.
+I build practical software around messy workflows: desktop add-ins, web tools, automation scripts, validation reports, installers, and release pipelines.
 
-My strongest proof domain is BIM/AEC, but the core work is broader: understand a messy workflow, model the decisions, and ship a tool that people can actually use.
+My strongest proof domain is BIM/AEC, especially Revit automation. The broader pattern is the same in every project: understand the process, model the rules, and ship something people can actually use.
 
-## Focus
+## Work Areas
 
-<p align="center">
-  <img src="assets/build-loop.svg" alt="Research, model rules, build tool, release" width="100%" />
-</p>
-
-- Revit API add-ins with C#, .NET, WPF, installers, and release packaging.
-- BIM data workflows around parameters, families, IFC, IDS, validation, and handoff reports.
-- Internal tools with TypeScript, Next.js, Supabase, Python/FastAPI, and automation scripts.
-- Productized utilities with clear docs, reproducible builds, and clean release artifacts.
-
-## Current Work
-
-| Project | What it proves | Status |
+| Area | What I build | Tools |
 |---|---|---|
-| DSTools | Revit automation ecosystem with desktop, web, and plugin surfaces | In development |
-| IdsPreflight | IDS/IFC preflight and reporting before Revit export | Preparing public release |
-| sharafutdinov.online | Portfolio, services, project notes, and public writing | Live |
-| Revit Day By Day | Revit API practice and public learning history | Public archive |
+| BIM automation | Revit add-ins, model validation, parameter workflows, export checks | `C#` `.NET` `WPF` `Revit API` `IFC` `IDS` |
+| Internal tools | dashboards, admin surfaces, workflow apps, data review tools | `TypeScript` `Next.js` `Supabase` `PostgreSQL` |
+| Automation | scripts, bots, parsers, reports, repeatable local tooling | `Python` `PowerShell` `FastAPI` `GitHub Actions` |
+| Delivery | installers, docs, release packages, smoke checks, handoff artifacts | `Inno Setup` `Docker` `CI` `Markdown` |
+
+## Selected Work
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/sharafutdinovdi/revit-day-by-day">Revit Day By Day</a></h3>
+      <p>Public archive of Revit API practice, C# add-in experiments, and BIM automation notes.</p>
+      <p><code>C#</code> <code>Revit API</code> <code>.NET</code> <code>Learning archive</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://sharafutdinov.online">sharafutdinov.online</a></h3>
+      <p>Portfolio, services, public writing, and project notes around automation and product work.</p>
+      <p><code>Next.js</code> <code>TypeScript</code> <code>Personal site</code></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>DSTools</h3>
+      <p>Revit automation ecosystem with desktop, web, and release-management surfaces.</p>
+      <p><code>Private for now</code> <code>Revit</code> <code>WPF</code> <code>Web</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>IdsPreflight</h3>
+      <p>IDS/IFC preflight and reporting before Revit export. Planned as a clean public proof repo.</p>
+      <p><code>Preparing public release</code> <code>IDS</code> <code>IFC</code> <code>Reports</code></p>
+    </td>
+  </tr>
+</table>
 
 ## Stack
 
-`C#` | `.NET` | `WPF` | `Revit API` | `Python` | `TypeScript` | `Next.js` | `Supabase` | `PostgreSQL` | `Docker`
+<p>
+  <code>C#</code>
+  <code>.NET</code>
+  <code>WPF</code>
+  <code>Revit API</code>
+  <code>Python</code>
+  <code>PowerShell</code>
+  <code>TypeScript</code>
+  <code>Next.js</code>
+  <code>Supabase</code>
+  <code>PostgreSQL</code>
+  <code>Docker</code>
+  <code>GitHub Actions</code>
+</p>
 
-## Public Repositories
+## What I Care About
 
-Some work is private while it is still client-specific, experimental, or not cleaned for release. I open repositories when they are useful as standalone tools: source, docs, tests, release notes, license, and install path included.
-
-The next public target is `IdsPreflight`.
+- Tools that fit the real workflow, not just the demo path.
+- Clear inputs, diagnostics, repeatable runs, and predictable handoff.
+- Small products with docs, release artifacts, and a path from private work to public proof.
