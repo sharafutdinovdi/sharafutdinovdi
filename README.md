@@ -33,8 +33,8 @@ My strongest proof domain is BIM/AEC, especially Revit automation. The broader p
   <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/sharafutdinovdi/revit-day-by-day">Revit Day By Day</a></h3>
-      <p>Public archive of Revit API practice, C# add-in experiments, and BIM automation notes.</p>
-      <p><code>C#</code> <code>Revit API</code> <code>.NET</code> <code>Learning archive</code></p>
+      <p>Archived 25-command Revit API learning experiment. Useful as a compact code archive, not an active product.</p>
+      <p><code>Archived</code> <code>C#</code> <code>Revit API</code> <code>.NET</code></p>
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://sharafutdinov.online">sharafutdinov.online</a></h3>
@@ -72,9 +72,3 @@ My strongest proof domain is BIM/AEC, especially Revit automation. The broader p
   <code>Docker</code>
   <code>GitHub Actions</code>
 </p>
-
-## What I Care About
-
-- Tools that fit the real workflow, not just the demo path.
-- Clear inputs, diagnostics, repeatable runs, and predictable handoff.
-- Small products with docs, release artifacts, and a path from private work to public proof.
