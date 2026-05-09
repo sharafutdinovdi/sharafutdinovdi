@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/profile-banner.svg" alt="Dinar Sharafutdinov - Systems and Automation Builder" width="100%" />
+</p>
+
 <h1 align="center">Dinar Sharafutdinov</h1>
 
 <p align="center">
@@ -20,6 +24,10 @@ I build practical software for teams that lose time to manual repetition: Revit/
 My strongest proof domain is BIM/AEC, but the core work is broader: understand a messy workflow, model the decisions, and ship a tool that people can actually use.
 
 ## Focus
+
+<p align="center">
+  <img src="assets/build-loop.svg" alt="Research, model rules, build tool, release" width="100%" />
+</p>
 
 - Revit API add-ins with C#, .NET, WPF, installers, and release packaging.
 - BIM data workflows around parameters, families, IFC, IDS, validation, and handoff reports.
