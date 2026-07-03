@@ -1,74 +1,51 @@
 <h2 align="center">Dinar Sharafutdinov</h2>
 
 <p align="center">
-  <strong>Systems & Automation Builder</strong><br />
-  Revit/BIM add-ins, internal tools, data workflows, and small products for real operational work.
+  <strong>BIM / Revit Developer &middot; Author of DSTools</strong><br />
+  Revit add-ins in C#/WPF, web tooling in Next.js, automation around AEC workflows.
 </p>
 
 <p align="center">
-  <a href="https://sharafutdinov.online">Portfolio</a> |
-  <a href="https://sharafutdinov.online/cv/CV_Dinar_Sharafutdinov_EN.pdf">CV</a> |
-  <a href="https://www.linkedin.com/in/sharafutdinovdi">LinkedIn</a> |
+  <a href="https://sharafutdinov.online">Portfolio</a> &middot;
+  <a href="https://sharafutdinov.online/cv/CV_Dinar_Sharafutdinov_EN.pdf">CV</a> &middot;
+  <a href="https://www.linkedin.com/in/sharafutdinovdi">LinkedIn</a> &middot;
   <a href="mailto:sharafutdinov.di.dev@outlook.com">Email</a>
 </p>
 
 ---
 
-I build practical software around messy workflows: desktop add-ins, web tools, automation scripts, validation reports, installers, and release pipelines.
+I build software for the AEC industry: Revit plugins that validate models and manage
+family libraries, desktop apps that ship with real installers and auto-updates, and web
+platforms that tie it all together. The approach is the same in every project —
+understand the process, model the rules, ship something people actually use.
 
-My strongest proof domain is BIM/AEC, especially Revit automation. The broader pattern is the same in every project: understand the process, model the rules, and ship something people can actually use.
+## DSTools
 
-## Work Areas
+My main product: a Revit automation ecosystem for BIM engineers.
 
-| Area | What I build | Tools |
-|---|---|---|
-| BIM automation | Revit add-ins, model validation, parameter workflows, export checks | `C#` `.NET` `WPF` `Revit API` `IFC` `IDS` |
-| Internal tools | dashboards, admin surfaces, workflow apps, data review tools | `TypeScript` `Next.js` `Supabase` `PostgreSQL` |
-| Automation | scripts, bots, parsers, reports, repeatable local tooling | `Python` `PowerShell` `FastAPI` `GitHub Actions` |
-| Delivery | installers, docs, release packages, smoke checks, handoff artifacts | `Inno Setup` `Docker` `CI` `Markdown` |
+- **Revit plugins** — family validation, library management, parameter workflows
+  (`C#` &middot; `.NET` &middot; `Revit API 2022–2026` &middot; `WPF`)
+- **Web platform** — [app.dstools.online](https://app.dstools.online): family library
+  portal, review workflows, licensing (`Next.js` &middot; `TypeScript` &middot; `Supabase`)
+- **Delivery** — installers, auto-updater, CI/CD release pipelines
+  (`Inno Setup` &middot; `GitHub Actions`)
 
-## Selected Work
+Site: [dstools.online](https://dstools.online). The codebase is private while the
+product matures; public plugin releases are planned.
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/sharafutdinovdi/revit-day-by-day">Revit Day By Day</a></h3>
-      <p>Archived 25-command Revit API learning experiment. Useful as a compact code archive, not an active product.</p>
-      <p><code>Archived</code> <code>C#</code> <code>Revit API</code> <code>.NET</code></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://sharafutdinov.online">sharafutdinov.online</a></h3>
-      <p>Portfolio, services, public writing, and project notes around automation and product work.</p>
-      <p><code>Next.js</code> <code>TypeScript</code> <code>Personal site</code></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>DSTools</h3>
-      <p>Revit automation ecosystem with desktop, web, and release-management surfaces.</p>
-      <p><code>Private for now</code> <code>Revit</code> <code>WPF</code> <code>Web</code></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>IdsPreflight</h3>
-      <p>IDS/IFC preflight and reporting before Revit export. Planned as a clean public proof repo.</p>
-      <p><code>Preparing public release</code> <code>IDS</code> <code>IFC</code> <code>Reports</code></p>
-    </td>
-  </tr>
-</table>
+## Other Work
+
+| Project | Description |
+|---|---|
+| [Revit Day By Day](https://github.com/sharafutdinovdi/revit-day-by-day) | Archived learning series: 25 isolated Revit API commands for Revit 2026 (`C#`, `.NET 8`) |
+| [sharafutdinov.online](https://sharafutdinov.online) | Personal site — portfolio, services, writing (`Next.js`, `Tailwind CSS`, self-hosted) |
+| Freelance Revit plugins | Custom plugins for clients: Revit 2020–2026, pyRevit, Dynamo |
 
 ## Stack
 
-<p>
-  <code>C#</code>
-  <code>.NET</code>
-  <code>WPF</code>
-  <code>Revit API</code>
-  <code>Python</code>
-  <code>PowerShell</code>
-  <code>TypeScript</code>
-  <code>Next.js</code>
-  <code>Supabase</code>
-  <code>PostgreSQL</code>
-  <code>Docker</code>
-  <code>GitHub Actions</code>
-</p>
+`C#` `.NET` `WPF` `Revit API` `TypeScript` `Next.js` `Supabase` `PostgreSQL` `Python` `Docker` `GitHub Actions`
+
+## Contact
+
+The fastest way to reach me is [sharafutdinov.online](https://sharafutdinov.online) or
+[LinkedIn](https://www.linkedin.com/in/sharafutdinovdi).
