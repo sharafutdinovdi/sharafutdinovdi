@@ -1,27 +1,41 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.png">
-  <img alt="Dinar Sharafutdinov, BIM / Revit developer. A terminal session where an MCP client reads a live Revit 2023 model: document info, room areas by level, a view export." src="assets/hero-light.png" width="100%">
-</picture>
+<h1 align="center">Dinar Sharafutdinov</h1>
+
+<p align="center"><strong>BIM / Revit developer.</strong> I turn manual BIM work into tools people use every day:<br>Revit add-ins in C# and .NET across Revit 2022-2026, Dynamo and pyRevit automation, and AI agents that read live Revit models.</p>
 
 <p align="center">
-  <a href="https://sharafutdinov.online"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-sharafutdinov.online-0969da?style=flat-square&logo=googlechrome&logoColor=white"></a>
+  <a href="https://sharafutdinov.online"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-sharafutdinov.online-005FB8?style=flat-square&logo=googlechrome&logoColor=white"></a>
   <a href="https://www.linkedin.com/in/sharafutdinovdi"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-sharafutdinovdi-0a66c2?style=flat-square&logo=linkedin&logoColor=white"></a>
   <a href="mailto:sharafutdinov.di.dev@outlook.com"><img alt="Email" src="https://img.shields.io/badge/Email-sharafutdinov.di.dev%40outlook.com-59636e?style=flat-square&logo=maildotru&logoColor=white"></a>
-  <a href="https://sharafutdinov.online/cv"><img alt="CV" src="https://img.shields.io/badge/CV-sharafutdinov.online%2Fcv-1f2328?style=flat-square&logo=adobeacrobatreader&logoColor=white"></a>
+  <a href="https://sharafutdinov.online/cv"><img alt="CV" src="https://img.shields.io/badge/CV-sharafutdinov.online%2Fcv-1f2328?style=flat-square&logo=readdotcv&logoColor=white"></a>
   <a href="https://dstools.online"><img alt="DSTools" src="https://img.shields.io/badge/DSTools-dstools.online-2da44e?style=flat-square&logo=autodesk&logoColor=white"></a>
 </p>
 
-I build software for the AEC industry: Revit add-ins that validate models and manage family
-libraries, desktop tools that ship with real installers and auto-updates, and the Dynamo and
-pyRevit automation around them. BIM coordinator by day, tool builder by trade: most of what I
-write started as a task someone was doing by hand.
+BIM coordinator by day, tool builder by trade. Most of what I write started as a task someone was doing by hand: a model check, a family library, a drawing set laid out view by view. I ship it as software with an installer, an auto-updater and a release pipeline, not as a script on a shared drive.
 
-**Open to contract work** on Revit/AEC automation and AI-assisted engineering pipelines.
-Based in Belgrade, Serbia · working with teams in the EU and remote.
+**Open to contract work** with engineering companies in the EU and remote, from Belgrade, Serbia.
 
-## Open-source contributions
+## Featured work
 
-Upstream work on the Revit / Dynamo ecosystem, the tools I use every day.
+### revit-model-mcp: an AI agent reads a live Revit model
+
+<img alt="Terminal session: an MCP client connects to Revit 2023 on a remote workstation, reads document info, aggregates room areas by level and exports a view to PNG" src="assets/revit-model-mcp.gif" width="100%">
+
+An MCP server that gives Claude, Cursor or any MCP client read access to the model that is open in Revit right now: 14 tools for catalog, filtered queries, aggregates, parameters, warnings, relations and view export. Read-only by construction, so it can sit next to production models. A C# add-in talks to a Python server over a file channel, locally or over SSH from a Mac, as in the recording above. Built for Revit 2022-2026 and tested on Windows CI. `C#` `Revit API` `Python` `MCP` · private until v0.1.0
+
+### revit-devloader: install, update and roll back Revit add-ins without leaving Revit
+
+<!-- devloader-card-image -->
+
+A development loader for Revit add-ins: versioned payloads verified by SHA-256, immutable run folders so a broken build never touches a working one, GitHub Releases as the feed, and a catalog inside Revit that shows every add-in with its supported Revit years and current state. One core, two hosts: .NET Framework 4.8 for Revit 2022-2024 and .NET 8 for 2025-2026, 139 unit tests. `C#` `.NET 4.8 / 8` `WPF` `GitHub Releases` · private until v0.1.0
+
+### Upstream contributions to the tools I use
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/pyrevit-pr-3617-dark.png">
+  <img alt="Merged pull request #3617 in pyrevitlabs/pyRevit: Show View Range, handle ceiling plans (RCP) correctly" src="assets/pyrevit-pr-3617-light.png" width="100%">
+</picture>
+
+Fixes go upstream, not into private forks: a merged fix in pyRevit (1.9k stars, used by most Revit teams I have worked with), a public API cleanup proposed to Autodesk's own DynamoRevit repository, and housekeeping in RhythmForDynamo. Status badges are live.
 
 | Project | Contribution | Status |
 |---|---|---|
@@ -29,13 +43,11 @@ Upstream work on the Revit / Dynamo ecosystem, the tools I use every day.
 | [DynamoDS/DynamoRevit](https://github.com/DynamoDS/DynamoRevit) | [#3433](https://github.com/DynamoDS/DynamoRevit/pull/3433): rename `ScheduleFilter.FiledId` to `FieldId` (public API typo, with obsolete shim) | ![state](https://img.shields.io/github/pulls/detail/state/DynamoDS/DynamoRevit/3433?style=flat-square&label=) |
 | [johnpierson/RhythmForDynamo](https://github.com/johnpierson/RhythmForDynamo) | [#111](https://github.com/johnpierson/RhythmForDynamo/pull/111): mark nodes promoted to OOTB Dynamo as obsolete | ![state](https://img.shields.io/github/pulls/detail/state/johnpierson/RhythmForDynamo/111?style=flat-square&label=) |
 
-## Public code
+## Also public
 
-| Repository | What it is | Stack | Status |
-|---|---|---|---|
-| revit-model-mcp | Read-only MCP server for live Revit models: catalog, filtered queries, aggregates, warnings, relations, view export. A Revit add-in talks to a Python MCP server over a file channel, locally or over SSH. | `C#` `Revit API 2022-2026` `Python` `MCP` | private until v0.1.0 |
-| revit-devloader | Development loader for Revit add-ins: versioned payloads with SHA-256, immutable run folders, GitHub Releases as the feed. | `C#` `.NET 4.8 / 8` `WPF` | private until v0.1.0 |
-| [revit-day-by-day](https://github.com/sharafutdinovdi/revit-day-by-day) | Archived learning series: 25 isolated Revit API commands for Revit 2026 | `C#` `.NET 8` | archived |
+| Repository | What it is | Stack |
+|---|---|---|
+| [revit-day-by-day](https://github.com/sharafutdinovdi/revit-day-by-day) | Archived learning series: 25 isolated Revit API commands for Revit 2026, one per day | `C#` `.NET 8` |
 
 ## DSTools: custom Revit development for engineering companies
 
