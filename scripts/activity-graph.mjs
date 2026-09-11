@@ -37,10 +37,10 @@ function render(calendar, days, palette, updated) {
   const dot = points.find((point) => point.date === peak.date);
   const anchor = dot.x > right - 150 ? 'end' : 'start';
   const labelX = dot.x + (anchor === 'end' ? -8 : 8);
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 1200 300" role="img" aria-label="Contributions — last 12 months: ${calendar.totalContributions} contributions">
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 1200 300" role="img" aria-label="Contributions, last 12 months: ${calendar.totalContributions} contributions">
   <rect x="0.5" y="0.5" width="1199" height="299" rx="16" fill="${bg}" stroke="${border}"/>
   <g font-family="'Segoe UI', Helvetica, Arial, sans-serif">
-    <text x="32" y="39" font-size="14" fill="${muted}">Contributions — last 12 months</text>
+    <text x="32" y="39" font-size="14" fill="${muted}">Contributions, last 12 months</text>
     <text x="1168" y="41" text-anchor="end" font-size="20" font-weight="700" fill="${text}">${calendar.totalContributions} contributions</text>
     <g font-size="11" fill="${muted}">
 ${gridlines}
