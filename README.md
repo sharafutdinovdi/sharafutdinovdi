@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-  <img alt="Dinar Sharafutdinov, BIM / Revit Developer" src="assets/banner-light.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.png">
+  <img alt="Dinar Sharafutdinov, BIM / Revit developer. Revit 2026 with the Day by Day add-in tab open." src="assets/hero-light.png" width="100%">
 </picture>
 
 <p align="center">
