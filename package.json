@@ -1,0 +1,1 @@
+{ "name": "profile", "private": true, "type": "module", "scripts": { "graph": "node scripts/activity-graph.mjs" } }
