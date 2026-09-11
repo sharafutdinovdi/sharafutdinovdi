@@ -16,17 +16,17 @@ BIM coordinator by day, tool builder by trade. Most of what I write started as a
 
 ## Featured work
 
-### revit-model-mcp: an AI agent reads a live Revit model
+### revit-model-mcp: an AI agent that reads and acts on a live Revit model
 
-<img alt="Terminal session: an MCP client connects to Revit 2023 on a remote workstation, reads document info, aggregates room areas by level and exports a view to PNG" src="assets/revit-model-mcp.gif" width="100%">
+<img alt="Claude Desktop on the left, Revit 2026 on the right: Claude reads the open model, finds the largest room, opens its plan and selects it, isolates it, places a chair and moves it, then cleans up" src="assets/revit-model-mcp-claude.gif" width="100%">
 
-An MCP server that gives Claude, Cursor or any MCP client read access to the model that is open in Revit right now: 14 tools for catalog, filtered queries, aggregates, parameters, warnings, relations and view export. Read-only by construction, so it can sit next to production models. A C# add-in talks to a Python server over a file channel, locally or over SSH from a Mac, as in the recording above. Built for Revit 2022-2026 and tested on Windows CI. `C#` `Revit API` `Python` `MCP` · private until v0.1.0
+An MCP server that gives Claude, Cursor or any MCP client access to the model that is open in Revit right now. Read-only by default: 14 tools for catalog, filtered queries, aggregates, geometry, warnings, relations and view export. Actions are a separate opt-in set behind two gates: select, show, isolate, move, place a family, create a wall, set a parameter, delete, each in its own transaction. The recording above is Claude Desktop on a Mac driving Revit 2026 on a Windows workstation over the network; the server also works locally, over SSH, or through an authenticated HTTP endpoint on the workstation, so a corporate PC can be driven from anywhere with a tunnel. Built for Revit 2022-2026, CI on Windows, 126 core and 120 server tests. `C#` `Revit API` `Python` `MCP` · private until v0.1.0
 
 ### revit-devloader: install, update and roll back Revit add-ins without leaving Revit
 
-<!-- devloader-card-image -->
+<img alt="DevLoader inside Revit 2026: the catalog lists two payloads from a GitHub Releases feed, RevitDayByDay is installed with one click and shows as installed" src="assets/revit-devloader.gif" width="100%">
 
-A development loader for Revit add-ins: versioned payloads verified by SHA-256, immutable run folders so a broken build never touches a working one, GitHub Releases as the feed, and a catalog inside Revit that shows every add-in with its supported Revit years and current state. One core, two hosts: .NET Framework 4.8 for Revit 2022-2024 and .NET 8 for 2025-2026, 139 unit tests. `C#` `.NET 4.8 / 8` `WPF` `GitHub Releases` · private until v0.1.0
+A development loader for Revit add-ins: versioned payloads verified by SHA-256, immutable run folders so a broken build never touches a working one, GitHub Releases as the feed, and a catalog inside Revit that shows every add-in with its supported Revit years and current state. One core, two hosts: .NET Framework 4.8 for Revit 2022-2024 and .NET 8 for 2025-2026, 141 unit tests, installer and release pipeline on GitHub Actions. `C#` `.NET 4.8 / 8` `WPF` `GitHub Releases` · private until v0.1.0
 
 ### Upstream contributions to the tools I use
 
