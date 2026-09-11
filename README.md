@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.png">
-  <img alt="Dinar Sharafutdinov, BIM / Revit developer. Revit 2026 with the Day by Day add-in tab open." src="assets/hero-light.png" width="100%">
+  <img alt="Dinar Sharafutdinov, BIM / Revit developer. A terminal session where an MCP client reads a live Revit 2023 model: document info, room areas by level, a view export." src="assets/hero-light.png" width="100%">
 </picture>
 
 <p align="center">
@@ -31,16 +31,18 @@ Upstream work on the Revit / Dynamo ecosystem, the tools I use every day.
 
 ## Public code
 
-| Repository | What it is | Stack |
-|---|---|---|
-| [revit-day-by-day](https://github.com/sharafutdinovdi/revit-day-by-day) | Archived learning series: 25 isolated Revit API commands for Revit 2026, one per day | `C#` `.NET 8` `Revit API` |
+| Repository | What it is | Stack | Status |
+|---|---|---|---|
+| revit-model-mcp | Read-only MCP server for live Revit models: catalog, filtered queries, aggregates, warnings, relations, view export. A Revit add-in talks to a Python MCP server over a file channel, locally or over SSH. | `C#` `Revit API 2022-2026` `Python` `MCP` | private until v0.1.0, [plan](https://github.com/sharafutdinovdi/plugin-orders/issues/129) |
+| revit-devloader | Development loader for Revit add-ins: versioned payloads with SHA-256, immutable run folders, GitHub Releases as the feed. | `C#` `.NET 4.8 / 8` `WPF` | private until v0.1.0 |
+| [revit-day-by-day](https://github.com/sharafutdinovdi/revit-day-by-day) | Archived learning series: 25 isolated Revit API commands for Revit 2026 | `C#` `.NET 8` | archived |
 
-## DSTools: freelance Revit development
+## DSTools: custom Revit development for engineering companies
 
-[DSTools](https://dstools.online) is the name I work under as a freelance Revit developer. Two lines of work:
+[DSTools](https://dstools.online) is my Revit development practice. Two things it delivers:
 
-- **Custom add-ins for clients.** Scoped, built, tested on the client's Revit version, installed and supported. Delivered: **PipelineBuilder** (piping systems modelling from DWG layouts) and **AgrZoning** (zoning plans and areas for the Russian AGR digital model). In development for the Autodesk App Store: **FamilyChecker** and **ModelChecker**. `C#` `.NET 4.8 / 8` `Revit API 2021-2026` `WPF`
-- **Revit families for companies.** Parametric MEP and equipment families built to a company's standard: shared parameters, lookup tables, naming, tested in the client's template.
+- **Custom add-ins.** Scoped, built, tested on the client's Revit version, installed and supported. Delivered: **PipelineBuilder** (piping systems modelling from DWG layouts) and **AgrZoning** (zoning plans and areas for the Russian AGR digital model). In development for the Autodesk App Store: **FamilyChecker** and **ModelChecker**. `C#` `.NET 4.8 / 8` `Revit API 2021-2026` `WPF`
+- **Revit family libraries.** Parametric MEP and equipment families built to a company's standard: shared parameters, lookup tables, naming, tested in the client's template.
 
 Every add-in ships the same way: installer, auto-updater, versioned releases through GitHub Actions. `Inno Setup` `GitHub Actions`
 
