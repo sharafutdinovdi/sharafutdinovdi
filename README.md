@@ -12,9 +12,9 @@
 </p>
 
 I build software for the AEC industry: Revit add-ins that validate models and manage family
-libraries, desktop apps that ship with real installers and auto-updates, and web platforms that
-tie it together. BIM coordinator by day, tool builder by trade: most of what I write started as
-a task someone was doing by hand.
+libraries, desktop tools that ship with real installers and auto-updates, and the Dynamo and
+pyRevit automation around them. BIM coordinator by day, tool builder by trade: most of what I
+write started as a task someone was doing by hand.
 
 **Open to contract work** on Revit/AEC automation and AI-assisted engineering pipelines.
 Based in Belgrade, Serbia · working with teams in the EU and remote.
