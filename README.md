@@ -33,7 +33,7 @@ Upstream work on the Revit / Dynamo ecosystem, the tools I use every day.
 
 | Repository | What it is | Stack | Status |
 |---|---|---|---|
-| revit-model-mcp | Read-only MCP server for live Revit models: catalog, filtered queries, aggregates, warnings, relations, view export. A Revit add-in talks to a Python MCP server over a file channel, locally or over SSH. | `C#` `Revit API 2022-2026` `Python` `MCP` | private until v0.1.0, [plan](https://github.com/sharafutdinovdi/plugin-orders/issues/129) |
+| revit-model-mcp | Read-only MCP server for live Revit models: catalog, filtered queries, aggregates, warnings, relations, view export. A Revit add-in talks to a Python MCP server over a file channel, locally or over SSH. | `C#` `Revit API 2022-2026` `Python` `MCP` | private until v0.1.0 |
 | revit-devloader | Development loader for Revit add-ins: versioned payloads with SHA-256, immutable run folders, GitHub Releases as the feed. | `C#` `.NET 4.8 / 8` `WPF` | private until v0.1.0 |
 | [revit-day-by-day](https://github.com/sharafutdinovdi/revit-day-by-day) | Archived learning series: 25 isolated Revit API commands for Revit 2026 | `C#` `.NET 8` | archived |
 
