@@ -16,11 +16,11 @@ BIM coordinator by day, tool builder by trade. Most of what I write started as a
 
 ## Featured work
 
-### revit-model-mcp: an AI agent that reads and acts on a live Revit model
+### [revit-model-mcp](https://github.com/sharafutdinovdi/revit-model-mcp): an AI agent that reads and acts on a live Revit model
 
 <img alt="Claude Desktop on the left, Revit 2026 on the right: Claude reads the open model, finds the largest room, opens its plan and selects it, isolates it, places a chair and moves it, then cleans up" src="assets/revit-model-mcp-claude.gif" width="100%">
 
-An MCP server that gives Claude, Cursor or any MCP client access to the model that is open in Revit right now. Read-only by default: 14 tools for catalog, filtered queries, aggregates, geometry, warnings, relations and view export. Actions are a separate opt-in set behind two gates: select, show, isolate, move, place a family, create a wall, set a parameter, delete, each in its own transaction. The recording above is Claude Desktop on a Mac driving Revit 2026 on a Windows workstation over the network; the server also works locally, over SSH, or through an authenticated HTTP endpoint on the workstation, so a corporate PC can be driven from anywhere with a tunnel. Built for Revit 2022-2026, CI on Windows, 126 core and 120 server tests. `C#` `Revit API` `Python` `MCP` · private until v0.1.0
+An MCP server that gives Claude, Cursor or any MCP client access to the model that is open in Revit right now. Read-only by default: 14 tools for catalog, filtered queries, aggregates, geometry, warnings, relations and view export. Actions are a separate opt-in set behind two gates: select, show, isolate, move, place a family, create a wall, set a parameter, delete, each in its own transaction. The recording above is Claude Desktop on a Mac driving Revit 2026 on a Windows workstation over the network; the server also works locally, over SSH, or through an authenticated HTTP endpoint on the workstation, so a corporate PC can be driven from anywhere with a tunnel. Built for Revit 2022-2026, CI on Windows, 126 core and 120 server tests. `C#` `Revit API` `Python` `MCP` · [v0.1.0 released](https://github.com/sharafutdinovdi/revit-model-mcp/releases/tag/v0.1.0), MIT
 
 ### [revit-devloader](https://github.com/sharafutdinovdi/revit-devloader): install, update and roll back Revit add-ins without leaving Revit
 
