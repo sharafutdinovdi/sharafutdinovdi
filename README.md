@@ -20,7 +20,7 @@ BIM coordinator by day, tool builder by trade. Most of what I write started as a
 
 <img alt="Claude Desktop on the left, Revit 2026 on the right: Claude reads the open model, finds the largest room, opens its plan and selects it, isolates it, places a chair and moves it, then cleans up" src="assets/revit-model-mcp-claude.gif" width="100%">
 
-An MCP server that gives Claude, Cursor or any MCP client access to the model that is open in Revit right now. Read-only by default: 14 tools for catalog, filtered queries, aggregates, geometry, warnings, relations and view export. Actions are a separate opt-in set behind two gates: select, show, isolate, move, place a family, create a wall, set a parameter, delete, each in its own transaction. The recording above is Claude Desktop on a Mac driving Revit 2026 on a Windows workstation over the network; the server also works locally, over SSH, or through an authenticated HTTP endpoint on the workstation, so a corporate PC can be driven from anywhere with a tunnel. Built for Revit 2022-2026, CI on Windows, 126 core and 120 server tests. `C#` `Revit API` `Python` `MCP` · [v0.1.0 released](https://github.com/sharafutdinovdi/revit-model-mcp/releases/tag/v0.1.0), MIT
+An MCP server that gives Claude, Cursor or any MCP client access to the model that is open in Revit right now. Read-only by default: 14 tools for catalog, filtered queries, aggregates, geometry, warnings, relations and view export. Actions are a separate opt-in set behind two gates: select, show, isolate, move, place a family, create a wall, set a parameter, delete, each in its own transaction. I run it from Claude Desktop on a Mac and connect to the Revit workstation over SSH; local and HTTP modes are there as well. Built for Revit 2022-2026, CI on Windows, 126 core and 120 server tests. `C#` `Revit API` `Python` `MCP` · [v0.1.0 released](https://github.com/sharafutdinovdi/revit-model-mcp/releases/tag/v0.1.0), MIT
 
 ### [revit-devloader](https://github.com/sharafutdinovdi/revit-devloader): install, update and roll back Revit add-ins without leaving Revit
 
@@ -28,14 +28,7 @@ An MCP server that gives Claude, Cursor or any MCP client access to the model th
 
 A development loader for Revit add-ins: versioned payloads verified by SHA-256, immutable run folders so a broken build never touches a working one, GitHub Releases as the feed, and a catalog inside Revit that shows every add-in with its supported Revit years and current state. One core, two hosts: .NET Framework 4.8 for Revit 2022-2024 and .NET 8 for 2025-2026, 141 unit tests, installer and release pipeline on GitHub Actions. `C#` `.NET 4.8 / 8` `WPF` `GitHub Releases` · [v0.1.0 released](https://github.com/sharafutdinovdi/revit-devloader/releases/tag/v0.1.0), MIT
 
-### Upstream contributions to the tools I use
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/pyrevit-pr-3617-dark.png">
-  <img alt="Merged pull request #3617 in pyrevitlabs/pyRevit: Show View Range, handle ceiling plans (RCP) correctly" src="assets/pyrevit-pr-3617-light.png" width="100%">
-</picture>
-
-Fixes go upstream, not into private forks: a merged fix in pyRevit (1.9k stars, used by most Revit teams I have worked with), a public API cleanup proposed to Autodesk's own DynamoRevit repository, and housekeeping in RhythmForDynamo. Status badges are live.
+### Upstream contributions
 
 | Project | Contribution | Status |
 |---|---|---|
@@ -58,14 +51,13 @@ Fixes go upstream, not into private forks: a merged fix in pyRevit (1.9k stars, 
 
 Every add-in ships the same way: installer, auto-updater, versioned releases through GitHub Actions. `Inno Setup` `GitHub Actions`
 
-## How I build
+## How I work
 
-A one-person product with a multi-repo backlog only works if the routine part runs without me, so I develop inside an AI agent pipeline I built and maintain myself, and treat it as infrastructure, not a novelty.
-
-- **Spec before code.** Every task starts as a written spec with explicit scope and acceptance criteria; ambiguity is resolved by a human, not guessed by a model.
-- **Roles split across models.** One model plans, reviews and accepts; another implements strictly from the spec. Review blocks on release-critical issues only.
-- **Nothing ships unverified.** No task is accepted without a command run and its output shown, for the agents and for me equally.
-- **Routine work is a scheduled job.** Release pipelines, weekly reports, health checks and digests run on GitHub Actions cron and report into Telegram.
+- A task starts as a written spec: which files, what changes, how it is verified. The spec is the contract, whoever implements it, a person or a coding agent.
+- Implementation and review are separate passes. Review blocks a release only for real problems, otherwise it never converges.
+- Nothing is done until the check has run and its output is on the table: a test run, a build, a screenshot of the dialog.
+- Routine work is scheduled, not remembered: releases, health checks and weekly reports run on GitHub Actions and report to Telegram.
+- Notes and decisions live in a searchable base, so a question answered once is not answered again.
 
 ## Stack
 
