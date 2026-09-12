@@ -24,7 +24,7 @@ An MCP server that gives Claude, Cursor or any MCP client access to the model th
 
 ### [revit-devloader](https://github.com/sharafutdinovdi/revit-devloader): install, update and roll back Revit add-ins without leaving Revit
 
-<img alt="DevLoader inside Revit 2026: the catalog lists two payloads from a GitHub Releases feed, RevitDayByDay is installed with one click and shows as installed" src="assets/revit-devloader.gif" width="100%">
+<img alt="DevLoader inside Revit 2026: a catalog of five add-ins from a GitHub Releases feed, two installed with one click each, then the feed refreshed" src="assets/revit-devloader.gif" width="100%">
 
 A development loader for Revit add-ins: versioned payloads verified by SHA-256, immutable run folders so a broken build never touches a working one, GitHub Releases as the feed, and a catalog inside Revit that shows every add-in with its supported Revit years and current state. One core, two hosts: .NET Framework 4.8 for Revit 2022-2024 and .NET 8 for 2025-2026, 141 unit tests, installer and release pipeline on GitHub Actions. `C#` `.NET 4.8 / 8` `WPF` `GitHub Releases` · [v0.1.0 released](https://github.com/sharafutdinovdi/revit-devloader/releases/tag/v0.1.0), MIT
 
