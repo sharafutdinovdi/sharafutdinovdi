@@ -44,10 +44,9 @@ A development loader for Revit add-ins, built the way pyRevit treats bundles: a 
 
 ## DSTools: custom Revit development for engineering companies
 
-[DSTools](https://dstools.online) is my Revit development practice. Two things it delivers:
+[DSTools](https://dstools.online) is my Revit development practice. What it delivers:
 
 - **Custom add-ins.** Scoped, built, tested on the client's Revit version, installed and supported. Delivered: **PipelineBuilder** (piping systems modelling from DWG layouts) and **AgrZoning** (zoning plans and areas for the Russian AGR digital model). In development for the Autodesk App Store: **FamilyChecker** and **ModelChecker**. `C#` `.NET 4.8 / 8` `Revit API 2021-2026` `WPF`
-- **Revit family libraries.** Parametric MEP and equipment families built to a company's standard: shared parameters, lookup tables, naming, tested in the client's template.
 
 Every add-in ships the same way: installer, auto-updater, versioned releases through GitHub Actions. `Inno Setup` `GitHub Actions`
 
