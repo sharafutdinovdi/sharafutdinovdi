@@ -43,13 +43,13 @@ A development loader for Revit add-ins, built the way pyRevit treats bundles: a 
 
 <img alt="Zoning Check running inside Autodesk Forma: plot controls on the left, the compliance result and the permitted envelope generated over the proposal" src="assets/forma-zoning-check.png" width="100%">
 
-**[forma-zoning-check](https://github.com/sharafutdinovdi/forma-zoning-check)** checks a Forma proposal against its plot controls — floor area ratio, site coverage, building height, setbacks — and generates the permitted envelope over the site. Presets ship for Dubai, Riyadh, Serbia, Germany, the Netherlands and Spain, so the rule set is the jurisdiction's, not mine. Built on the Forma embedded-view SDK with the native Autodesk design system, so it looks like a part of Forma rather than an iframe.
+**[forma-zoning-check](https://github.com/sharafutdinovdi/forma-zoning-check)** checks a Forma proposal against its plot controls (floor area ratio, site coverage, building height, setbacks) and generates the permitted envelope over the site. Presets ship for Dubai, Riyadh, Serbia, Germany, the Netherlands and Spain, so the rule set is the jurisdiction's, not mine. Built on the Forma embedded-view SDK with the native Autodesk design system, so it looks like a part of Forma rather than an iframe.
 
 Everything reusable was pulled out of it and published, because the next extension should not start from an empty folder:
 
 | Package | What it does |
 |---|---|
-| [![npm](https://img.shields.io/npm/v/create-forma-extension?style=flat-square&logo=npm&logoColor=white&label=create-forma-extension)](https://www.npmjs.com/package/create-forma-extension) | `npm create forma-extension@latest my-extension` — a working extension, zero runtime dependencies |
+| [![npm](https://img.shields.io/npm/v/create-forma-extension?style=flat-square&logo=npm&logoColor=white&label=create-forma-extension)](https://www.npmjs.com/package/create-forma-extension) | `npm create forma-extension@latest my-extension`: a working extension, zero runtime dependencies |
 | [![npm](https://img.shields.io/npm/v/forma-extension-kit?style=flat-square&logo=npm&logoColor=white&label=forma-extension-kit)](https://www.npmjs.com/package/forma-extension-kit) | Host adapter: proposal snapshots, base-group classification, footprint provider chain, cross-panel channel |
 | [autodesk-forma-extension-template](https://github.com/sharafutdinovdi/autodesk-forma-extension-template) | The Vite + TypeScript template the scaffolder generates, also usable with *Use this template* |
 
