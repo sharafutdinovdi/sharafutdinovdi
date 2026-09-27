@@ -1,12 +1,4 @@
-<p align="center"><img alt="Dinar's mascot, a 3D toy figure in a navy suit, waving" src="assets/mascot-waving.png" width="160"></p>
-
-<h1 align="center">Dinar Sharafutdinov</h1>
-
-<p align="center"><strong>Revit automation consultant and BIM coordinator.</strong> I help architecture and MEP teams remove repeated Revit work:<br>Dynamo and Python automation, C#/.NET add-ins across Revit 2021-2026, testing, installation, handover and support.<br>On the side: Autodesk Forma extensions and open-source tools that let AI agents read live Revit models.</p>
-
-<p align="center">
-  <img alt="Open to work: Revit automation, implementation and BIM coordination; full-time, part-time or contract; remote from Belgrade" src="https://img.shields.io/badge/Open%20to%20work-Revit%20automation%20%7C%20implementation-54AF63?style=for-the-badge">
-</p>
+<p align="center"><img alt="Dinar Sharafutdinov, Revit automation consultant and BIM coordinator. I help architecture and MEP teams remove repeated Revit work with Dynamo, Python, pyRevit and C#/.NET add-ins. Open to work, Belgrade, remote." src="assets/header.png" width="100%"></p>
 
 <p align="center">
   <a href="https://sharafutdinov.online"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-sharafutdinov.online-005FB8?style=flat-square&logo=googlechrome&logoColor=white"></a>
