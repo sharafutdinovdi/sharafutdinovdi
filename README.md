@@ -1,6 +1,14 @@
-<p align="center"><img alt="Dinar Sharafutdinov, Revit automation consultant and BIM coordinator. I help architecture and MEP teams remove repeated Revit work with Dynamo, Python, pyRevit and C#/.NET add-ins. Open to work, Belgrade, remote." src="assets/header.png" width="100%"></p>
+<img align="right" alt="Dinar's mascot in a navy suit, juggling Revit, Dynamo and AI app tiles" src="assets/mascot.png" width="250">
 
-<p align="center">
+# Dinar Sharafutdinov
+
+<strong>Revit automation consultant and BIM coordinator.</strong> I help architecture and MEP teams remove repeated Revit work: Dynamo and Python automation, C#/.NET add-ins across Revit 2021-2026, testing, installation, handover and support.
+
+<p>
+  <img alt="Open to work: Revit automation, implementation and BIM coordination; full-time, part-time or contract; remote from Belgrade" src="https://img.shields.io/badge/Open%20to%20work-Revit%20automation%20%7C%20implementation-54AF63?style=for-the-badge">
+</p>
+
+<p>
   <a href="https://sharafutdinov.online"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-sharafutdinov.online-005FB8?style=flat-square&logo=googlechrome&logoColor=white"></a>
   <a href="https://www.linkedin.com/in/sharafutdinovdi"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-sharafutdinovdi-0a66c2?style=flat-square&logo=linkedin&logoColor=white"></a>
   <a href="mailto:sharafutdinov.di.dev@outlook.com"><img alt="Email" src="https://img.shields.io/badge/Email-sharafutdinov.di.dev%40outlook.com-59636e?style=flat-square&logo=maildotru&logoColor=white"></a>
@@ -12,6 +20,8 @@ BIM coordinator by day, tool builder by trade. Most of what I write started as a
 **Open to work.** Implementation, solutions and technical customer success roles at AEC software companies; BIM automation, BIM development and BIM coordination for engineering teams. Full-time, part-time or contract, remote from Belgrade, Serbia, or on site.
 
 **Send me one workflow your team repeats every week.** I will tell you within 24 hours whether it is a good automation candidate: [sharafutdinov.di.dev@outlook.com](mailto:sharafutdinov.di.dev@outlook.com).
+
+<br clear="right">
 
 ## Featured work
 
