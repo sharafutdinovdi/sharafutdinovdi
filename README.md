@@ -1,6 +1,6 @@
-<img align="right" alt="Dinar's mascot in a navy suit, juggling Revit, Dynamo and AI app tiles" src="assets/mascot.png" width="250">
-
 # Dinar Sharafutdinov
+
+<img align="right" alt="Dinar's mascot in a navy suit, juggling Revit, Dynamo and AI app tiles" src="assets/mascot.png" width="250">
 
 <strong>Revit automation consultant and BIM coordinator.</strong> I help architecture and MEP teams remove repeated Revit work: Dynamo and Python automation, C#/.NET add-ins across Revit 2021-2026, testing, installation, handover and support.
 
