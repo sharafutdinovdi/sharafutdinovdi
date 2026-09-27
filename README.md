@@ -1,9 +1,11 @@
+<p align="center"><img alt="Dinar's mascot, a 3D toy figure in a navy suit, waving" src="assets/mascot-waving.png" width="160"></p>
+
 <h1 align="center">Dinar Sharafutdinov</h1>
 
-<p align="center"><strong>BIM / Revit developer.</strong> I turn manual BIM work into tools people use every day:<br>Revit add-ins in C# and .NET across Revit 2022-2027, Autodesk Forma extensions in TypeScript,<br>Dynamo and pyRevit automation, and AI agents that read live Revit models.</p>
+<p align="center"><strong>Revit automation consultant and BIM coordinator.</strong> I help architecture and MEP teams remove repeated Revit work:<br>Dynamo and Python automation, C#/.NET add-ins across Revit 2021-2026, testing, installation, handover and support.<br>On the side: Autodesk Forma extensions and open-source tools that let AI agents read live Revit models.</p>
 
 <p align="center">
-  <img alt="Open to work: BIM / Revit developer, contract or full-time, remote from Belgrade" src="https://img.shields.io/badge/Open%20to%20work-BIM%20%2F%20Revit%20developer-2da44e?style=for-the-badge">
+  <img alt="Open to work: Revit automation, implementation and BIM coordination; full-time, part-time or contract; remote from Belgrade" src="https://img.shields.io/badge/Open%20to%20work-Revit%20automation%20%7C%20implementation-54AF63?style=for-the-badge">
 </p>
 
 <p align="center">
@@ -11,12 +13,13 @@
   <a href="https://www.linkedin.com/in/sharafutdinovdi"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-sharafutdinovdi-0a66c2?style=flat-square&logo=linkedin&logoColor=white"></a>
   <a href="mailto:sharafutdinov.di.dev@outlook.com"><img alt="Email" src="https://img.shields.io/badge/Email-sharafutdinov.di.dev%40outlook.com-59636e?style=flat-square&logo=maildotru&logoColor=white"></a>
   <a href="https://sharafutdinov.online/cv"><img alt="CV" src="https://img.shields.io/badge/CV-sharafutdinov.online%2Fcv-1f2328?style=flat-square&logo=readdotcv&logoColor=white"></a>
-  <a href="https://dstools.online"><img alt="DSTools" src="https://img.shields.io/badge/DSTools-dstools.online-2da44e?style=flat-square&logo=autodesk&logoColor=white"></a>
 </p>
 
 BIM coordinator by day, tool builder by trade. Most of what I write started as a task someone was doing by hand: a model check, a family library, a drawing set laid out view by view. I ship it as software with an installer, an auto-updater and a release pipeline, not as a script on a shared drive.
 
-**Open to work.** Contract or full-time, remote from Belgrade, Serbia, for engineering companies in the EU and the Gulf. Revit and Forma development, BIM coordination, in-house tooling.
+**Open to work.** Implementation, solutions and technical customer success roles at AEC software companies; BIM automation, BIM development and BIM coordination for engineering teams. Full-time, part-time or contract, remote from Belgrade, Serbia, or on site.
+
+**Send me one workflow your team repeats every week.** I will tell you within 24 hours whether it is a good automation candidate: [sharafutdinov.di.dev@outlook.com](mailto:sharafutdinov.di.dev@outlook.com).
 
 ## Featured work
 
@@ -75,9 +78,15 @@ Everything reusable was pulled out of it and published, because the next extensi
 | [autodesk-forma-extension-template](https://github.com/sharafutdinovdi/autodesk-forma-extension-template) | Minimal Vite + TypeScript template for Forma Site Design extensions | `TypeScript` `Vite` |
 | [revit-day-by-day](https://github.com/sharafutdinovdi/revit-day-by-day) | Archived learning series: 25 isolated Revit API commands for Revit 2026, one per day | `C#` `.NET 8` |
 
-## DSTools: custom Revit development for engineering companies
+## Independent Revit automation (formerly DSTools)
 
-[DSTools](https://dstools.online) is my Revit development practice. What it delivers:
+I work directly with architecture and MEP teams under my own name; DSTools is the earlier brand of the same practice. An engagement starts from one repeated workflow and runs in one of three formats:
+
+- **Revit workflow audit.** A workflow interview and one sample model become a map of the manual process and a prioritized list of automation candidates, with the best first one scoped.
+- **One workflow automation sprint.** One workflow, one agreed acceptance example, 10 business days when the scope fits. Dynamo, Python, pyRevit or a small C#/.NET add-in, whichever the task needs, tested on your Revit version, installed and handed over, with 14 days of fixes against the acceptance example.
+- **Fractional tooling support.** A monthly allowance for support, minor fixes and one small improvement, with a monthly summary.
+
+What the practice has shipped:
 
 - **Custom add-ins.** Scoped, built, tested on the client's Revit version, installed and supported. Delivered: **PipelineBuilder** (piping systems modelling from DWG layouts) and **AgrZoning** (zoning plans and areas for the Russian AGR digital model). In development for the Autodesk App Store: **FamilyChecker** and **ModelChecker**. `C#` `.NET 4.8 / 8` `Revit API 2021-2026` `WPF`
 
@@ -111,4 +120,4 @@ Every add-in ships the same way: installer, auto-updater, versioned releases thr
 
 ## Contact
 
-The fastest way to reach me is [sharafutdinov.online](https://sharafutdinov.online), [LinkedIn](https://www.linkedin.com/in/sharafutdinovdi) or [sharafutdinov.di.dev@outlook.com](mailto:sharafutdinov.di.dev@outlook.com).
+The fastest way to reach me is [sharafutdinov.online](https://sharafutdinov.online), [LinkedIn](https://www.linkedin.com/in/sharafutdinovdi) or [sharafutdinov.di.dev@outlook.com](mailto:sharafutdinov.di.dev@outlook.com). A screen recording or a sample model of the workflow is the best first message.
