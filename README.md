@@ -5,12 +5,13 @@
 <strong>Revit automation consultant and BIM coordinator.</strong> I help architecture and MEP teams remove repeated Revit work: Dynamo and Python automation, C#/.NET add-ins across Revit 2021-2026, testing, installation, handover and support.
 
 <p>
-  <img alt="Open to work: Revit automation, implementation and BIM coordination; full-time, part-time or contract; remote from Belgrade" src="https://img.shields.io/badge/Open%20to%20work-Revit%20automation%20%7C%20implementation-54AF63?style=for-the-badge">
+  <img alt="Open to work: Revit automation, implementation and BIM coordination; full-time, part-time or contract; remote from Belgrade" src="https://img.shields.io/badge/Open%20to%20work-Revit%20automation%20%7C%20implementation-54AF63?style=for-the-badge&labelColor=3E8E4C">
 </p>
 
 <p>
   <a href="https://sharafutdinov.online"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-sharafutdinov.online-005FB8?style=flat-square&logo=googlechrome&logoColor=white"></a>
   <a href="https://www.linkedin.com/in/sharafutdinovdi"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-sharafutdinovdi-0a66c2?style=flat-square&logo=linkedin&logoColor=white"></a>
+  <a href="https://www.youtube.com/@dinar.sharafutdinov"><img alt="YouTube" src="https://img.shields.io/badge/YouTube-%40dinar.sharafutdinov-FF0000?style=flat-square&logo=youtube&logoColor=white"></a>
   <a href="mailto:sharafutdinov.di.dev@outlook.com"><img alt="Email" src="https://img.shields.io/badge/Email-sharafutdinov.di.dev%40outlook.com-59636e?style=flat-square&logo=maildotru&logoColor=white"></a>
   <a href="https://sharafutdinov.online/cv"><img alt="CV" src="https://img.shields.io/badge/CV-sharafutdinov.online%2Fcv-1f2328?style=flat-square&logo=readdotcv&logoColor=white"></a>
 </p>
